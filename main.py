@@ -43,11 +43,9 @@ def sleep_well():
         
         cider.play_url('https://music.apple.com/br/playlist/chuva-infinita/pl.c724b210445541e7a306561d89761ca2')
         
-        # sleep for 1 hour
-        #time.sleep(3600)
         with keep.running():
-            logger.info('Sleeping for 1 minute')
-            time.sleep(60)
+            logger.info('Sleeping for 1 hour')
+            time.sleep(3600)
         
             logger.info('Pausing playback')
             cider.pause()
