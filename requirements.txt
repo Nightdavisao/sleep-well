@@ -1,0 +1,10 @@
+certifi==2025.1.31
+charset-normalizer==3.4.1
+idna==3.10
+jeepney==0.9.0
+pulsectl==24.12.0
+pycairo==1.27.0
+PyGObject==3.52.1
+requests==2.32.3
+urllib3==2.3.0
+wakepy==0.10.1
